@@ -1,0 +1,125 @@
+*
+{
+    --color-paragraph :rgb(255, 249, 198);
+}
+
+.useful-section
+
+{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-section
+{
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    width: 75vw;
+    height:90vh;
+    background-image: url('/images/fortnite.jpg');
+    background-position: top;
+}
+
+.board
+{
+    position: absolute;
+    top : 5rem;
+    right: 0;
+    background-color: #fdffa1;
+    width: 42rem;
+    height: 36rem;
+    border-radius: 3rem;
+}
+.title-section
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 50vw;
+    height: 6.5rem;
+    background: rgb(12,12,37);
+    background: rgb(4,4,14);
+    background: linear-gradient(90deg, rgba(4,4,14,1) 0%, rgba(36,2,32,1) 100%);
+    top: 5em;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+}
+.paragraph-card p{
+    padding: 7px 8px 0 7px;
+    font-family: "Roboto";
+    color: var(--color-paragraph);
+}
+svg
+{
+    position: absolute;
+    z-index: 2;
+    fill: url(#header-shape-gradient);
+    transform: rotate(-90deg);
+    right: -61rem;
+    top: -10rem;
+}
+#header-shape-gradient {
+    --color-stop: #ff9c3e;
+    --color-bot: #a11d13;
+}
+.title-section h1
+{
+    padding-left: 3rem;
+    font-size: 4rem;
+    color: #fffde2;
+    font-family: "Source Code Pro";
+}
+.paragraph-card
+{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 20px 20px 40px  #02121c,
+                -10px -10px 40px #1d3b4f;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    top: 15rem;
+    right: 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 40vw;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background: linear-gradient(145deg, #093149, #02111a);
+
+}
+button.vezi
+{
+    margin: 2rem 0 2rem 0;
+    text-align:center;
+    height: 2.3rem;
+    width: 8.5rem;
+    border-radius: 5rem;
+    color: rgb(25, 3, 29);
+    background: rgb(255, 253, 197);
+    box-shadow: -3px 3px 6px rgb(255, 236, 162);
+    border: none;
+    font-family: "B612";
+}
+button.mai_multe
+{
+    border-radius: 50%;
+    background: rgb(255, 253, 197);
+    border: none;
+    width: 2.3rem;
+    height: 2.3rem;
+}
+button:hover
+{
+cursor: pointer;
+}
+button:focus
+{   
+    display: none;
+}

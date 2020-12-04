@@ -1,0 +1,33 @@
+
+--EVENT LOOp--
+
+how does js work ??/
+The heap is where memory allocation happens 
+and there is the call stack, which is 
+A DATA STRUCTURE WHICH RECORDS WHERE
+IN THE PROGRAM ARE WE.
+IF WE STEP INTO A FUNCTION WE PUT SOMETHING
+INTO A STACK, IF WE RETRUN FROM A FUNCTION
+WE POP OFF THE STACK
+
+! The browser acts different if we call a FUNCTION
+in the js or if tehere is a click that triggers the call
+because of how the stack works
+
+
+NETWORK REQUESTS ARE sLoW
+
+things that are slow and on tech stack are
+blocking means
+
+the browser provides an api for the setTimeout (4 example)
+so the setTimeout function is going to the webapis, after the delay
+gets pushed into the task queue and the event loop
+send the tasks in the stack, where it gets processed;
+
+
+
+--ASYNC--
+
+RUN-TO-COMPLETION tasks 
+
